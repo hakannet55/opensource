@@ -1,0 +1,57 @@
+<style>
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(http://www.reactiongifs.us/wp-content/uploads/2015/04/nothing_to_see_here_naked_gun.gif) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+
+
+.btnx {
+  display: inline-block;
+  border: 1px solid #aaa;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  &:hover {
+    color: #e2e2e2;
+    background: rgba(255,255,255,0.10);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .btn {
+    background-color: white;
+    color: #444444;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 120px;
+  };
+}
+</style>
+
+  <div class='container'>
+    <div class='row content'>
+      <div class='col-lg-12'></div>
+      <div class='col-lg-12'>
+        <h1>404</h1>
+        <h2>Oops, the page you're looking for does not exist.</h2>
+        <p>
+          You may want to head back to the homepage.
+          <br>
+            If you think something is broken, report a problem.
+          </br>
+        </p>
+        <a href="?"><span class='btnx'>Geri Dön</span></a>
+      </div>
+    </div>
+  </div>
+  <div class='bg-img'></div>
